@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>SALL CHAMPS - Live Stream</title>
+   	<link rel="shortcut icon" href="assets/favicon.ico" />
+
+	    <!-- Other libraries -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="libs/bootstrap.css">
+    <script type="text/javascript" src="libs/jquery.js"></script>
+    <script type="text/javascript" src="libs/bootstrap.js"></script>
+	<script src="https://cdn.pubnub.com/pubnub-dev.js"></script>
+	<script src="https://www.parsecdn.com/js/parse-1.5.0.min.js"></script>
+	    
+    <link rel="stylesheet" type="text/css" href="assets/style.css"/>
+    <script type="text/javascript" src="assets/main.js"></script>
+	<!--<script type="text/javascript" src="assets/livestream.js"></script> WILL BE UNCOMMENTED DAY OF EVENT-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body> 
+
+	<div class="layer"></div>
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=535351883282243";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<!-- NAVBAR -->
+	<nav class="navbar navbar-default navbar-static-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav-bar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+                <a class="navbar-brand" href="index.html">
+                    <img style="max-width:100px;margin-top:-12px;" src="assets/sall_logo.jpeg" alt="SALL logo">
+                </a>
+			</div>
+			<div class="collapse navbar-collapse" id="main-nav-bar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="partners.html">Partners</a></li>
+					<li><a href="judges.html">Judges</a></li>
+					<li><a href="rules.html">Rules</a></li>
+					<li><a href="register.html">Register</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li class="active"><a href="livestream.html">Live Stream</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- CONTENT -->
+	<div class="container">
+		<div class="well well-lg">
+
+			<div class="jumbotron pagination-centered text-center">
+				<h1>WILL BE ACTIVE ON THE DAY OF THE EVENT!!!</h1>
+			</div>
+
+			<!-- LIVESTREAM CODE -->
+			<!--
+			<div class="row" id="post-input" style="display:none">
+				<div class="input-group">
+					<input type="text" class="form-control" id="post-content">
+					<span class="input-group-btn">
+						<button type="submit" class="btn btn-default" id="post-submit">Submit</button>
+					</span>
+				</div>
+			</div>
+			<hr>
+			<div class="row" id="messages"></div>
+			<hr>-->
+
+			<!-- SOCIAL HOTBAR -->
+			<div class="row well text-center">
+				<div class="fb-follow" data-href="https://www.facebook.com/pages/South-Asian-Lego-Legends/828774630491431" data-layout="button_count" data-show-faces="true"></div>
+				<div class="fb-like" data-href="https://www.facebook.com/pages/South-Asian-Lego-Legends/828774630491431" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+				<div class="fb-share-button" data-href="https://www.facebook.com/pages/South-Asian-Lego-Legends/828774630491431" data-layout="button_count"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<nav class="navbar navbar-inverse nav-footer">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">SALL</a>
+			</div>
+			<div>
+				<ul class="nav navbar-nav">
+					<li><a href="tel:7328002122">732-800-2122</a></li>
+					<li><a href="mailto:hello@sallchamps.com">hello@sallchamps.com</a></li>
+					<li><a href="https://www.google.com/maps/place/4500+New+Brunswick+Ave,+Piscataway+Township,+NJ+08854/@40.5609666,-74.4372392,17z/data=!4m2!3m1!1s0x89c3b869d79cce13:0x5dcfd91b9153160a" target="_blank">4500 New Brunswick Ave</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Design by Shivam Agrawal</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+</body>
+</html>
