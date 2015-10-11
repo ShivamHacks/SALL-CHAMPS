@@ -17,10 +17,10 @@ var pubnub;
 $(document).ready(function() {
 
 	var data = {
-		"a": "pub-c-0e8bbdbf-c3ff-4d9c-b4b8-3d29c95cd165",
-		"b": "sub-c-b2a65320-4845-11e5-8287-0619f8945a4f",
-		"c": "FpqdxVn71eqgrovU54528AIyZBJBS5BLo6CRIv9t",
-		"d": "URIG1Kz3NST34PRBQOidQGAdNUrols1Sw7lje49G"
+		"a": "secret",
+		"b": "secret",
+		"c": "secret",
+		"d": "secret"
 	};
 
 	Parse.initialize(data.c, data.d);
