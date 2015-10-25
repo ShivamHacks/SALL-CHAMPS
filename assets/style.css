@@ -1,3 +1,13 @@
+#slide {
+	position: absolute;
+	left: 0;
+	margin-top: 15%;
+	margin-right: 5%;
+	background-color: gold;
+}
+
+
+
 /* Main page jumbotron */
 .jumbotron.vertical-center {
 	margin-bottom: 0;
@@ -58,7 +68,7 @@ hr:after {
 
 /* Page Background */
 body {
-	background-image: url("poster.png");
+	background-image: url("bg.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -66,7 +76,7 @@ body {
 }
 
 .layer {
-	background-color: rgba(0, 0, 0, 0.7);
+	/*background-color: rgba(0, 0, 0, 0.7);*/
 	position: fixed;
 	top: 0;
 	left: 0;
